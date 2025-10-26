@@ -12,3 +12,15 @@ tmp_checkpoint/
 
 # Ignore large local folders
 fresh_clone/
+
+# Ignore uploads and logs
+uploads/
+*.log
+.pids
+
+# Node modules
+node_modules/
+
+# Environment files
+.env
+.env.local
